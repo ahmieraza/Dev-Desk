@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
-import { Globe, Smartphone, GraduationCap, Palette, Code2, Database, CheckCircle2, Award, Clock, Shield, Zap, Users } from "lucide-react";
+import { Globe, Smartphone, GraduationCap, Code2, Database, CheckCircle2, Award, Clock, Shield, Zap, Users } from "lucide-react";
 import { useContent } from "@/admin/context/ContentContext";
 
 const Home = () => {

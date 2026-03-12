@@ -248,7 +248,7 @@ const Pricing = () => (
         </div>
 
         <div className="space-y-6 md:space-y-8">
-          {pricingData.map((section, sectionIdx) => {
+          {pricingData.map((section) => {
             return (
               <div key={section.category} className="card-glass rounded-3xl p-6 md:p-8 shadow-premium border-2 border-muted/30">
                 <h2 className="text-4xl md:text-5xl font-extrabold mb-6 md:mb-8 text-center text-gray-100" style={{ fontFamily: 'Dancing Script, cursive' }}>

@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout";
-import { Globe, Smartphone, GraduationCap, Palette, Code2, Database, Search, Users } from "lucide-react";
+import { Globe, Smartphone, GraduationCap, Code2, Database, Search, Users } from "lucide-react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 
@@ -90,21 +90,6 @@ const mobileAppCategories = {
   ],
   "Features & Integration": [
     "Push Notifications", "Payment Gateway", "GPS & Maps", "Camera & Gallery", "Social Login", "Chat & Messaging", "Offline Mode", "App Store Deployment"
-  ]
-};
-
-const logoDesignCategories = {
-  "Logo Design": [
-    "Minimalist Logo", "Modern Logo", "Vintage Logo", "3D Logo", "Mascot Logo", "Lettermark", "Wordmark", "Abstract Logo", "Geometric Logo"
-  ],
-  "Brand Identity": [
-    "Brand Guidelines", "Color Palette", "Typography", "Brand Voice", "Visual Identity", "Brand Strategy"
-  ],
-  "Marketing Materials": [
-    "Business Cards", "Letterheads", "Brochures", "Flyers", "Posters", "Banners", "Social Media Kit", "Email Templates"
-  ],
-  "Design Tools": [
-    "Adobe Illustrator", "Adobe Photoshop", "Figma", "Sketch", "CorelDRAW", "Canva Pro", "Adobe InDesign"
   ]
 };
 
@@ -219,7 +204,6 @@ const Services = () => {
         setShowAcademicHelp(false);
         setShowWebDev(false);
         setShowMobileApp(false);
-        setShowLogoDesign(false);
         setShowCustomSolutions(false);
         setShowDatabase(false);
         setShowSEO(false);
