@@ -30,7 +30,7 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <BrowserRouter>
+    <BrowserRouter basename="/Dev-Desk">
       <ScrollToTop />
       <Routes>
           {/* Public Routes */}
